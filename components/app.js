@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from './Header.jsx'
+import ListofExercises from './ListofExercises.jsx'
 
 
 class App extends Component {
@@ -9,10 +10,11 @@ class App extends Component {
   }
 
   render () {
-    return (<div>
+    return (<div style={{backgroundColor: "#e7e5e3"}}>
+      <div style={{padding:"222px 0px 100px 100px"}}>
 
-    
-    <h1>Welcome to {this.props.name}</h1>
+    <ListofExercises />
+    </div>
     <Header />
    
     </div>)}

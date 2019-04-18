@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import paper from 'paper'
 
+
 let headerstyle = {
     fontSize: "11em",
     position: "fixed", 
@@ -23,9 +24,11 @@ class Header extends Component {
     
     render() { 
         return (
+            
             <div>
-            <div style={{backgroundColor: "#FF0000"}}> </div>
-            <h1 style= {headerstyle}> Breathe </h1>
+                
+                <h1 style= {headerstyle}> Breathe </h1>
+           
            </div>
            
             
