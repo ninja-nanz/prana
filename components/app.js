@@ -14,7 +14,7 @@ class App extends Component {
     return (
     <div style={{backgroundColor: "#e7e5e3"}}>
     <div style={{padding:"100px 0px 100px 100px"}}>
-      <Animate />
+     
     <ListofExercises />
     </div>
   
