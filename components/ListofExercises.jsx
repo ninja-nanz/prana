@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Radium, {Style}from 'radium'
-import { relative } from 'path';
+import { BrowserRouter, Route, Link, Redirect } from "react-router-dom";
+
+import Exercise from './Exercise.jsx'
+
 
 const styles = {
     cardStyle: {
@@ -13,7 +16,7 @@ const styles = {
         margin: "1rem",
         position: "relative",
         width: "300px",
-        boxShadow: "0 19px 21px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.12)",
+        boxShadow: "0 9px 21px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.12)",
         ':hover': {
             boxShadow: "0 39px 44px rgba(0,0,0,.35), 0 22px 12px rgba(0,0,0,0.12)",
             position: "relative", bottom: "10px",
@@ -28,10 +31,17 @@ class ListofExercises extends Component {
         super(props);
         this.state = {  }
     }
+
+  
+
     render() { 
+        const handleClick = (e) => {
+            window.location = "/exercise";     
+         }
+
         return ( 
             <div>
-             <div key="1" style={styles.cardStyle} > 'empty'</div>
+             <div key="1" style={styles.cardStyle} onClick={handleClick}> Breath work</div>
              <div key="2" style={styles.cardStyle} > 'empty'</div>
              <div key="3" style={styles.cardStyle} > 'empty'</div>
              <div key="4" style={styles.cardStyle} > 'empty'</div>
