@@ -14,8 +14,6 @@ let card = {
     boxShadow: "0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.12)"
       
 }
-    
-
 
 
 
@@ -29,9 +27,10 @@ class ListofExercises extends Component {
             <div>
              <div style={card} > 'empty'</div>
             <div style={card} > 'empty'</div>
-            <div style={card} > 'empty'</div>  <div style={card} > 'empty'</div>
+            <div style={card} > 'empty'</div>  
             <div style={card} > 'empty'</div>
-            <div style={card} > 'empty'</div>   
+            <div style={card} > 'empty'</div>
+            <div style={card} > 'empty'</div>  
             </div> 
             
         );
