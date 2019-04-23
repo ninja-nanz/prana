@@ -3,7 +3,8 @@ import Header from './Header.jsx'
 import ListofExercises from './ListofExercises.jsx'
 import Animate from './AnimateTest.jsx'
 import { HashRouter as Router, Route, Link } from "react-router-dom";
-import Exercise from './Exercise.jsx';
+
+import Template from './Template.jsx';
 
 
 class App extends Component {
@@ -14,15 +15,16 @@ class App extends Component {
 
   render () {
     return (
-    <div style={{backgroundColor: "#e7e5e3", padding:"100px 0px 100px 100px"}}>
+    <div style={{ padding:"50px"}}>
     <Router>
-      
-    <Route path="/breathe/exercise" component={Exercise}/>
+
+    <Route path="/breathe/exercise" component={Template}/>
     
     <Route exact="true" path="/" component={ListofExercises} />
+    <Route exact="true" path="/" component={Header} />
  
   
-    <Header />
+
     
     </Router>
     </div>)}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Exercise extends Component {
     constructor(props) {
         super(props);
@@ -7,7 +8,22 @@ class Exercise extends Component {
     }
     render() { 
         return ( 
-            <h1> animate this thing</h1>
+        <div>
+            <section className="demo">  
+            <div className="box">  
+                <div className="leaf"></div>  
+                <div className="leaf"></div> 
+                <div className="leaf"></div> 
+                <div className="leaf"></div> 
+                <div className="leaf"></div>  
+                <div className="leaf"></div> 
+                <div className="leaf"></div> 
+                <div className="leaf"></div>  
+               
+            </div>  
+            </section>
+
+        </div>
         );
     }
 }

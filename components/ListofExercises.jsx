@@ -3,6 +3,7 @@ import Radium, {Style}from 'radium'
 import { BrowserRouter, Route, Link, Redirect } from "react-router-dom";
 
 import Exercise from './Exercise.jsx'
+import { transform } from 'popmotion';
 
 
 const styles = {
@@ -17,9 +18,13 @@ const styles = {
         position: "relative",
         width: "300px",
         boxShadow: "0 9px 21px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.12)",
+        transition: "transform 500ms ease-in-out",
         ':hover': {
-            boxShadow: "0 39px 44px rgba(0,0,0,.35), 0 22px 12px rgba(0,0,0,0.12)",
-            position: "relative", bottom: "10px",
+            boxShadow: "0 39px 44px rgba(0,0,0,.25), 0 22px 12px rgba(0,0,0,0.12)",
+           transform: "translate(0, -20px)"},
+            
+        ':active': {
+            backgroundColor: "yellow",
         }
     }
 }

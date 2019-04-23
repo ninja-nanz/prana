@@ -27,7 +27,7 @@ class Header extends Component {
         return (
             
             <div>
-                
+                <h3>PRANA</h3>
                 <h1 style= {headerstyle}> Breathe </h1>
            
            </div>
