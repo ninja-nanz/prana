@@ -6,7 +6,14 @@ class Exercise extends Component {
         super(props);
         this.state = {  }
     }
+
+    
     render() { 
+
+        const handleClick = (e) => {
+            window.location = "#/goodjob" 
+         }
+
         return ( 
         <div>
             <section className="demo">  
@@ -19,9 +26,12 @@ class Exercise extends Component {
                 <div className="leaf"></div> 
                 <div className="leaf"></div> 
                 <div className="leaf"></div>  
-               
+               <div className="in-out"></div>
             </div>  
+            
             </section>
+
+            <button onClick={handleClick}>I'm done</button>
 
         </div>
         );

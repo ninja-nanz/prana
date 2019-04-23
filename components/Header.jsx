@@ -8,7 +8,8 @@ let headerstyle = {
     left: 0,
     bottom: 0,
     margin: "1em 0em 0em 0.2em",
-    color: "#333"
+    color: "#333",
+    
 }
 
 
@@ -27,7 +28,7 @@ class Header extends Component {
         return (
             
             <div>
-                <h3>PRANA</h3>
+          
                 <h1 style= {headerstyle}> Breathe </h1>
            
            </div>

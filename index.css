@@ -8,10 +8,31 @@ body {
 
 }
 
-h3 {
+
+
+.prana {
   writing-mode: vertical-lr;
-  position: fixed; left: 11px; top: 200px;
+  position: fixed; left: 11px; top: 40px;
+  letter-spacing: 4px;
+  transition: all 400ms ease-in-out;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
 }
+
+.prana:hover {
+  letter-spacing: 15px;
+  cursor: w-resize;
+}
+
+h4 {
+  writing-mode: vertical-lr;
+  position: relative;  right: 40px; top: 165px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-size: 14px
+  
+}
+
 
 
 .demo {
@@ -120,24 +141,32 @@ h3 {
 }  
 
 
+
+
 .leaf:nth-child(2) {
- animation: show-2 10s ease-in-out 4s infinite;
+ animation: show-2 10s ease-in-out 1s infinite;
 }
 .leaf:nth-child(3) {
- animation: show-3 10s ease-in-out 4s infinite;
+ animation: show-3 10s ease-in-out 1s infinite;
 }
 .leaf:nth-child(4) {
- animation: show-4 10s ease-in-out 4s infinite;
+ animation: show-4 10s ease-in-out 1s infinite;
 }
 .leaf:nth-child(5) {
- animation: show-5 10s ease-in-out 4s infinite;
+ animation: show-5 10s ease-in-out 1s infinite;
 }
 .leaf:nth-child(6) {
- animation: show-6 10s ease-in-out 4s infinite;
+ animation: show-6 10s ease-in-out 1s infinite;
 }
 .leaf:nth-child(7) {
- animation: show-7 10s ease-in-out 4s infinite;
+ animation: show-7 10s ease-in-out 1s infinite;
 }
 .leaf:nth-child(8) {
- animation: show-8 10s ease-in-out 4s infinite;
+ animation: show-8 10s ease-in-out 1s infinite;
+}
+
+button {
+  position: relative;
+  margin-top: 300px;
+
 }
