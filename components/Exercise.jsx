@@ -7,7 +7,7 @@ class Exercise extends Component {
     }
     render() { 
         return ( 
-            <h1> animate this mofo</h1>
+            <h1> animate this thing</h1>
         );
     }
 }

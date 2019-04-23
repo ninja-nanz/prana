@@ -36,7 +36,7 @@ class ListofExercises extends Component {
 
     render() { 
         const handleClick = (e) => {
-            window.location = "/exercise";     
+            window.location = "#/breathe/exercise";     
          }
 
         return ( 

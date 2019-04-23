@@ -14,15 +14,16 @@ class App extends Component {
 
   render () {
     return (
-    <div style={{backgroundColor: "#e7e5e3"}}>
+    <div style={{backgroundColor: "#e7e5e3", padding:"100px 0px 100px 100px"}}>
     <Router>
-
-    <div style={{padding:"100px 0px 100px 100px"}}>
-    <ListofExercises />
-    </div>
+      
+    <Route path="/breathe/exercise" component={Exercise}/>
+    
+    <Route exact="true" path="/" component={ListofExercises} />
+ 
   
     <Header />
-    <Route path="/exercise" component={Exercise}/>
+    
     </Router>
     </div>)}
 
