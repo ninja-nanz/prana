@@ -19,8 +19,8 @@ class Prana extends Component {
          }
         return (
             
-            <div className="prana">
-                <h3 onClick={handleClick}>PRANA</h3> 
+            <div className="prana" onClick={handleClick}>
+                <h3>PRANA</h3> 
                 <h4> sync your breath</h4>
              
            

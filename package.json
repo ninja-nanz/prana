@@ -31,6 +31,7 @@
     "paper": "^0.12.0",
     "radium": "^0.25.1",
     "react-pose": "^4.0.8"
+    
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -46,6 +47,7 @@
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1",
     "tinyify": "^2.5.0",
-    "watchify": "^3.7.0"
+    "watchify": "^3.7.0",
+    "superagent": "^5.0.2"
   }
 }

@@ -17,10 +17,10 @@ const styles = {
         margin: "1rem",
         position: "relative",
         width: "300px",
-        boxShadow: "0 9px 21px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.12)",
+        boxShadow: "0 9px 21px rgba(0,0,0,0.10), 0 7px 12px rgba(0,0,0,0.12)",
         transition: "transform 400ms ease-in-out",
         ':hover': {
-            boxShadow: "0 39px 44px rgba(0,0,0,.25), 0 22px 12px rgba(0,0,0,0.12)",
+            boxShadow: "0 39px 44px rgba(0,0,0,.25), 0 17px 12px rgba(0,0,0,0.12)",
            transform: "translate(0, -20px)"},
             
         ':active': {
