@@ -9,7 +9,7 @@ class Template extends Component {
     render() { 
         return ( 
         <div>
-            <Exercise />
+            <Exercise incrementCounter={this.props.incrementCounter}/>
         </div>
         );
     }

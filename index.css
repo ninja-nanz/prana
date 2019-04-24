@@ -8,7 +8,18 @@ body {
 
 }
 
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
 
+p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
 
 .prana {
   writing-mode: vertical-lr;
@@ -168,5 +179,80 @@ h4 {
 button {
   position: relative;
   margin-top: 300px;
+
+}
+
+.counter {
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 100px;
+  
+  border: 2px solid rgb(65, 65, 65);
+  border-radius: 5px;
+  animation: slideInFromBottom 1s ease-out 0s 1 ;
+
+}
+
+@keyframes slideInFromBottom{
+  0% {
+    opacity: 0;
+    display: none;
+    transform: translateY(100%);
+  }
+  0% {
+    opacity: 0;
+    display: block;
+  }
+  100% {
+    opacity: 1;
+    display: block;
+    transform: translateY(0%);
+  }
+}
+
+.breathe {
+  display: block;
+  letter-spacing: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 1em 0em 0em 0.2em;
+  color: rgb(28, 28, 28);
+  opacity: .65;
+  font-weight: 100;
+}
+
+button {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  color: grey;
+  margin-top: 400px;
+  padding: 11px 22px;
+
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(247, 247, 247);
+  border-radius: 3px;
+  animation: slideInFromBottom 10s ease-in 0s 1 ;
+
+}
+
+span {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  color: #1c56d2;
+  cursor: w-resize;
+}
+
+br {
+  padding: 100px;
+}
+
+img {
+  vertical-align: middle;
+
 
 }

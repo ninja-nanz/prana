@@ -4,14 +4,15 @@ import React, { Component } from 'react';
 class Exercise extends Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        
     }
 
     
     render() { 
 
-        const handleClick = (e) => {
+        const handleClick = () => {
             window.location = "#/goodjob" 
+            this.props.incrementCounter()
          }
 
         return ( 

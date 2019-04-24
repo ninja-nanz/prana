@@ -8,6 +8,10 @@ import { transform } from 'popmotion';
 
 const styles = {
     cardStyle: {
+        fontFamily: 'Roboto Slab', 
+        fontWeight: "100",
+        fontSize: "13px",
+        letterSpacing: "3px",
         border: "2px",
         borderRadius: "9px",
         backgroundColor: "white",
@@ -24,7 +28,7 @@ const styles = {
            transform: "translate(0, -20px)"},
             
         ':active': {
-            backgroundColor: "yellow",
+            backgroundColor: "#afe3ff",
         }
     }
 }
@@ -46,14 +50,17 @@ class ListofExercises extends Component {
 
         return ( 
             <div>
-             <div key="1" style={styles.cardStyle} onClick={handleClick}> Breath work</div>
-             <div key="2" style={styles.cardStyle} > 'empty'</div>
-             <div key="3" style={styles.cardStyle} > 'empty'</div>
-             <div key="4" style={styles.cardStyle} > 'empty'</div>
-             <div key="5" style={styles.cardStyle} > 'empty'</div>
+             <div key="1" style={styles.cardStyle} onClick={handleClick}> <img src="../thumbnail.png" /></div>
+             <div key="2" style={styles.cardStyle} onClick={handleClick}> <img src="../thumbnail.png" /> </div>
+             <div key="3" style={styles.cardStyle} onClick={handleClick}> <img src="../thumbnail.png" /> </div>
+             <div key="4" style={styles.cardStyle} onClick={handleClick}>  </div>
+             <div key="5" style={styles.cardStyle} onClick={handleClick}>  </div>
+             <div key="6" style={styles.cardStyle} onClick={handleClick}>  </div>
 
-           
+           <br/><br/><br/><br/><br/><br/>
             </div> 
+
+            
             
         );
     }
